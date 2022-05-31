@@ -1,12 +1,11 @@
 terraform {
-  /* Uncomment this block to use Terraform Cloud for this tutorial
+  #Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
-    organization = "organization-name"
+    organization = "AnTu31-org"
     workspaces {
       name = "learn-terraform-module-use"
     }
   }
-  */
 
   required_providers {
     aws = {
